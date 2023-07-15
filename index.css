@@ -73,8 +73,31 @@ main{
     margin:0 auto;
 }
 
+/* teams styles =========
+ */
 
-
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+}
+.teams-content{
+    padding:0 70px;
+}
+.teams-title{
+    font-size: 2.8em;
+}
+.teams-title .quick-text{
+    color:#727272;
+    font-weight: 500;
+}
+.teams-title .features-text{
+    color:#ff900e;
+}
 
 
 
