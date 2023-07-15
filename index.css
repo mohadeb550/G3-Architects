@@ -104,6 +104,32 @@ main{
 }
 
 
+/* facts section ======== */
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.facts-card-container .card{
+    border:1px solid #ff900e;
+    border-radius: 8px;
+    text-align: center;
+    padding:30px;
+    
+}
+.facts-card-container .card-stats{
+    font-size: 2.4rem;
+    color:#424242;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size:1.25rem;
+    margin-top:6px;
+}
+
 
 
 
