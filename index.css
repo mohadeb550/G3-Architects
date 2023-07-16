@@ -123,14 +123,24 @@ main{
 }
 
 .ten-years-badge h2{
-    font-size: 4rem;
+    font-size: 3.7rem;
+    margin-bottom:0;
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
+}
+.feature-img img{
+    height:75%;
 }
 .ten-years-badge{
     border-radius: 8px;
     background: #ff900e;
     color:#fff;
     width:342px;
-    padding:4px 40px;
+    padding:3px 20px;
+    text-align: center;
+    position: relative;
+    bottom:110px;left:-60px;
 }
 
 
@@ -188,8 +198,15 @@ main{
     header{
         padding:15px;
     }
-    nav, .teams-container{
+    nav, .teams-container, .features{
         flex-direction: column;
+    }
+    .feature-img img{
+        width:100%;
+    }
+    .ten-years-badge{
+        position:static;
+        width:150px;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
